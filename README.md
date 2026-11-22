@@ -1,9 +1,23 @@
-
 # Vietnamese Local Food Image Retrieval with CLIP
 
 A text-to-image retrieval system for Vietnamese local foods, built using CLIP and multilingual text embeddings.
 
 Search for Vietnamese dishes using natural-language queries and retrieve the most relevant food images based on image-text similarity.
+
+## 🚀 Live Demo
+
+Try the Vietnamese Local Food Image Retrieval system here:
+
+**[Open Live Demo](https://dc2151f0c906e62499.gradio.live)**
+
+The demo allows users to:
+- Search Vietnamese local foods using natural-language queries.
+- Choose the number of retrieved images (Top-K).
+- View retrieved images with similarity scores.
+
+**Note:** This is a temporary Gradio link hosted through Google Colab. The demo is available only while the Colab runtime and Gradio application are running.
+
+---
 
 ## 1. Project Overview
 
@@ -106,13 +120,17 @@ pip install -r requirements.txt
 
 ## 8. Run the Demo
 
+Run the application locally:
+
 ```bash
 python app.py
 ```
 
 Open the local Gradio URL displayed in your terminal.
 
-**Deployment:** Hugging Face Spaces link will be added here.
+**Online Demo:** [Try the Vietnamese Local Food Retrieval Demo](https://dc2151f0c906e62499.gradio.live)
+
+*Note: The online demo currently uses a temporary Gradio share link hosted through Google Colab. A permanent deployment using Hugging Face Spaces is planned.*
 
 ## 9. Evaluation
 
@@ -129,7 +147,7 @@ Evaluation results will be added after testing the model.
 - Expand the dataset with more local dishes.
 - Improve retrieval performance through further fine-tuning.
 - Evaluate retrieval performance across different query styles.
-- Deploy the application using Hugging Face Spaces.
+- Deploy a permanent version using Hugging Face Spaces.
 
 ## 11. Acknowledgements
 
